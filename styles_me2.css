@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10;
+    padding: 15px;
+    background-image: url("pexels-photo-7640905.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #02010f;
+}
+
+main {
+    width: 650px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(16, 16, 19);
+    border: 3px solid #f6f6f6;
+    border-radius: 45px;
+}
+
+#MyPortfolio {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 35px;
+    background-color: white;
+}
+
+caption {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+}
+
+.header {
+    background-color: #1a3449;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    border-bottom: 4px solid #6f9aaa;
+}
+
+.header p {
+    margin: 5px;
+}
+
+.profile-picture {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3f7f9;
+    border-right: 2px solid #1C3142;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #1C3142;
+}
+
+.personal-info {
+    padding: 20px;
+    line-height: 1.6;   
+}
+
+.personal-info p {
+    margin: 8px 0;
+}
+
+.personal-info code {
+    padding: 4px 8px;
+    background-color: #dfe9ee;
+    border-radius: 5px;
+}
+
+.section-title {
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #dfe9ee;
+    color: #1C3142;
+    border-right: 2px solid #1C3142;
+}
+
+.content {
+    padding: 15px 25px;
+    vertical-align: middle;
+}
+
+.content li {
+    margin: 8px;
+}
+
+.quote {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8fafb;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.quote blockquote {
+    margin: 10px;
+}
+
+.fun-fact {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.github {
+    padding: 18px;
+    text-align: center;
+    background-color: #1C3142;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: 3px solid #6f9aaa;
+}
+
+.github a:link {
+    color: rgb(206, 238, 216);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github a:visited {
+    color: #99f1e0;
+}
+
+.github a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.github a:active {
+    color: rgb(219, 58, 187);
+}
+
